@@ -105,7 +105,7 @@ int main()
     title();
     printf("\n\n\t\t\t\tLab Final Spring 2017");
     printf("\n\n\t\t\t\t     The A Team");
-    printf("\n\n\t\t\t  Daffodil International University\n\t\t\t");
+    printf("\n\n\t\t\t  Green University of Bangladesh\n\t\t\t");
     printChar('=',38);
     printf("\n\n\n\t\t\t       press any key to Enter");
     getch();

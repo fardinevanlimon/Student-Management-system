@@ -47,7 +47,7 @@ int main()
 {
     int ch,id,k,i;
     char c,add,pas[50];
-    SetConsoleTitle("Student Management System | DIU");
+    SetConsoleTitle("Student Management System | GUB");
     FILE * fp;
     Student s;
     int option;

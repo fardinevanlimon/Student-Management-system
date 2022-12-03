@@ -103,8 +103,7 @@ int main()
 		getch();
 
     title();
-    printf("\n\n\t\t\t\tLab Final Spring 2017");
-    printf("\n\n\t\t\t\t     The A Team");
+    printf("\n\n\t\t\t\tLab Final Fall 2022");
     printf("\n\n\t\t\t  Green University of Bangladesh\n\t\t\t");
     printChar('=',38);
     printf("\n\n\n\t\t\t       press any key to Enter");
@@ -243,7 +242,7 @@ void add(FILE * fp)
         printf("\n\n\t\tEnter Roll number: ");
         scanf("%d",&s.roll);
 
-        printf("\n\n\tEnter SGPA for 12 semesters\n");
+        printf("\n\n\tEnter CGPA for 12 semesters\n");
         for(i=0,cgpa=0; i<12; i++)
         {
             scanf("%f",&s.sgpa[i]);
@@ -366,7 +365,7 @@ void modify(FILE * fp)
         scanf("%d",&s.roll);
 
 
-        printf("\n\n\t\tEnter SGPA for 12 semesters\n");
+        printf("\n\n\t\tEnter CGPA for 12 semesters\n");
         for(i=0,cgpa=0; i<12; i++)
         {
             scanf("%f",&s.sgpa[i]);
@@ -443,7 +442,7 @@ void Indivisual(FILE *fp)
             printf("\n\t\tNAME : %s",s.name);
             printf("\n\n\t\tDepartment : %s",s.dept);
             printf("\n\n\t\tROLL : %d",s.roll);
-            printf("\n\n\tSGPA: ");
+            printf("\n\n\tCGPA: ");
 
             for(i=0; i<12; i++)
                 printf("| %.2f |",s.sgpa[i]);
